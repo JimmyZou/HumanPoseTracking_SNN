@@ -52,4 +52,12 @@ bash run_test.sh
 ![image](./data/h36m_s_01_act_02_subact_01_ca_02_0020.gif)
 ![image](./data/phspd_subject11_group2_time3_0754.gif)
 
-
+## Citation
+```
+@article{zou2023event,
+  title={Event-based Human Pose Tracking by Spiking Spatiotemporal Transformer},
+  author={Zou, Shihao and Mu, Yuxuan and Zuo, Xinxin and Wang, Sen and Cheng, Li},
+  journal={arXiv preprint arXiv:2303.09681},
+  year={2023}
+}
+```

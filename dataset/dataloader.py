@@ -82,7 +82,22 @@ class EventDataloader(Dataset):
                 img_size=self.img_size,
                 modality=self.modality,
                 augmentation=self.aug,
-                use_synthesis=self.use_mmhpsd_synthesis,
+                use_synthesis=False,
+            )
+            all_clips += self.mmhpsd_dataloader.all_clips
+
+        if self.use_mmhpsd_synthesis and self.mode == "train":
+            self.mmhpsd_dataloader = MMHPSDataloader(
+                data_dir=self.data_dir,
+                smpl_dir=self.smpl_dir,
+                mode=self.mode,
+                num_steps=self.num_steps,
+                max_gap=self.max_gap,
+                channel=self.channel,  # corresponds to frame
+                img_size=self.img_size,
+                modality=self.modality,
+                augmentation=self.aug,
+                use_synthesis=True,
             )
             all_clips += self.mmhpsd_dataloader.all_clips
 
