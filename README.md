@@ -46,7 +46,8 @@ bash run_test.sh
 ![image](./data/test_64steps_mmhpsd_subject02_group1_time1_1152_1282.jpg)
 
 ## Dataset
-### We provide a subset of test samples from MMHPSD dataset. [Google Drive](https://drive.google.com/drive/folders/1Z2wBWeYL0qcKYQiC5Vj9SlJnUfpvnRP4?usp=share_link)
+### Test samples
+We provide a subset of test samples from MMHPSD dataset. [Google Drive](https://drive.google.com/drive/folders/1Z2wBWeYL0qcKYQiC5Vj9SlJnUfpvnRP4?usp=share_link)
 ### We will release our dataset upon paper acceptance. Below are some samples from the dataset.
 ![image](./data/mmhpsd_subject01_group3_time1_0112.gif)
 ![image](./data/amass_BMLhandball-S06_Novice-Trial_upper_right_left_084_poses_0032.gif)
