@@ -1,5 +1,5 @@
 # HumanPoseTracking_SNN
-Event-based Human Pose Tracking using Spiking Spatiotemporal Transformer, submitted to IEEE TPAMI 2023.
+Event-based Human Pose Tracking using Spiking Spatiotemporal Transformer, arXiv 2023.
 
 
 ### Conda Environment Setup
